@@ -1,7 +1,7 @@
 x = 5
 y = 10
+z = y
 y = x
-x = y
-
+x = z
 
 print(f'x: {x}\ny: {y}')
