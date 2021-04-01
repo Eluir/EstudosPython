@@ -1,3 +1,5 @@
+from json import dumps
+
 pessoa = {
     'nome': 'Creiso',
     'sobrenome': 'Cardosao',
@@ -6,4 +8,4 @@ pessoa = {
     'sexo': 'F'
 }
 
-print(len(pessoa['nome']))
+print(dumps(pessoa))
