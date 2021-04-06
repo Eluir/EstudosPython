@@ -1,8 +1,8 @@
 nome = str(input('Qual seu nome?\n'))
-nota1 = float(input('Qual sua nota do 1º bimestre?\n'))
-nota2 = float(input('Qual sua nota do 2º bimestre?\n'))
-nota3 = float(input('Qual sua nota do 3º bimestre?\n'))
-nota4 = float(input('Qual sua nota do 4º bimestre?\n'))
+nota1 = int((input('Qual sua nota do 1º bimestre?\n')))
+nota2 = int(input('Qual sua nota do 2º bimestre?\n'))
+nota3 = int(input('Qual sua nota do 3º bimestre?\n'))
+nota4 = int(input('Qual sua nota do 4º bimestre?\n'))
 soma_notas = ((nota1 + nota2 + nota3 + nota4) / 4)
 
 if soma_notas <= 40:
