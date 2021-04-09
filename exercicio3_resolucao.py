@@ -4,13 +4,14 @@ nota2 = int(input('Qual sua nota do 2º bimestre?\n'))
 nota3 = int(input('Qual sua nota do 3º bimestre?\n'))
 nota4 = int(input('Qual sua nota do 4º bimestre?\n'))
 soma_notas = ((nota1 + nota2 + nota3 + nota4) / 4)
+resultado = None
 
 if soma_notas <= 40:
-    print('Reprovado')
+    resultado = 'Reprovado'
 elif soma_notas > 40 and soma_notas <= 60:
-    print('Recuperação')
+    resultado = 'Recuperação'
 elif soma_notas > 60 and soma_notas <= 100:
-    print('Aprovado')
+    resultado = 'Aprovado'
 
-
-#Perguntar como faz pra usar o resultado do if em um print adicionando um texto
+print(f'{nome} vc está {resultado}')
+# Perguntar como faz pra usar o resultado do if em um print adicionando um texto

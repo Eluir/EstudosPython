@@ -5,3 +5,4 @@ if idade >= 18:
     print('Você já pode tirar a CNH!')
 else:
     print('Eita! Infelizamente ainda você não pode tirar a CNH!')
+print('Oi')
