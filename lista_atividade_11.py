@@ -9,6 +9,6 @@ if m < 8:
         else:
             n = n + 1
             p = p + 3
-        m = m + p
+        m = n + p
     p = n + m
 print(p + m + n)
