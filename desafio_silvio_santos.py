@@ -1,7 +1,7 @@
 num = int(input('Diginte um número: \n'))
 countPIM = 0
 
-for x in range(1, num, 1):
+for x in range(1, num+1, 1):
     if x % 4 == 0:
         print('PIM')
         countPIM += 1
