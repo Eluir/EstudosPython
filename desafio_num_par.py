@@ -4,6 +4,6 @@ sum = 0
 
 while num != count:
     if count != 0 and count % 2 == 0:
-        sum += count
+        sum += 1
     count += 1
-print(f'Valor acumulado dos numeros pares é: {sum}')
+print(f'A quantidade de números pares é: {sum}')
